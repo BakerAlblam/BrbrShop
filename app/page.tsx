@@ -4,7 +4,6 @@ import RelaxingServices from '@/components/RelaxingServices';
 import Footer from '@/components/Footer';
 import Services from '@/components/Services';
 import Book from '@/components/Book';
-import Visit from '@/components/Visit';
 import Contact from '@/components/Contact';
 
 export default function Home() {
@@ -30,9 +29,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <Visit />
-      <Contact />
+
       <Footer />
+      <Contact />
     </div>
   );
 }

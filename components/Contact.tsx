@@ -8,8 +8,8 @@ import Link from 'next/link';
 
 const Contact = () => {
   return (
-    <div className="flex flex-col gap-2 mb-4">
-      <h2 className="text-3xl font-bold">Contact Us</h2>
+    <div className="flex flex-col gap-2 mb-4 border-t">
+      <h2 className="text-3xl font-bold mt-2">Contact Us</h2>
       <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
         Ready to book an appointment? Have a question about our services? Feel
         free to get in touch with us. Our team is here to assist you.

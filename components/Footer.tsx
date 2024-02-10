@@ -3,45 +3,38 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="flex items-center w-full py-4 md:py-6 border-t">
-      <div className="container flex items-center justify-between px-4 md:px-6">
-        <nav className="flex items-center gap-4 text-sm font-medium">
-          <Link
-            className="text-gray-900 dark:text-gray-50"
-            href="#"
-          >
-            Home
-          </Link>
-          <Link
-            className="text-gray-900 dark:text-gray-50"
-            href="#"
-          >
-            Services
-          </Link>
-          <Link
-            className="text-gray-900 dark:text-gray-50"
-            href="#"
-          >
-            Team
-          </Link>
-          <Link
-            className="text-gray-900 dark:text-gray-50"
-            href="#"
-          >
-            Gallery
-          </Link>
-          <Link
-            className="text-gray-900 dark:text-gray-50"
-            href="#"
-          >
-            Contact
-          </Link>
-        </nav>
-        <p className="text-xs text-gray-500 dark:text-gray-400">
-          © 2023 The Barber Shop. All rights reserved.
-        </p>
+    <section className="w-full py-12 lg:py-16">
+      <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
+        <div className="space-y-2">
+          <h2 className="text-3xl font-bold">Visit Us</h2>
+          <p className="max-w-[500px] text-gray-500 md:text-xl/relaxed dark:text-gray-400">
+            Ready to experience the expertise of our barbers? Visit our shop and
+            take the first step towards looking your best.
+          </p>
+        </div>
+        <div className="grid items-center gap-4">
+          <div className="aspect-map rounded-xl overflow-hidden ">
+            <img
+              alt="Map"
+              className="object-cover object-center"
+              height="320"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/ff/61/25/getlstd-property-photo.jpg?w=1200&h=-1&s=1"
+              style={{
+                aspectRatio: '640/320',
+                objectFit: 'cover',
+              }}
+              width="640"
+            />
+          </div>
+          <div className="flex flex-col gap-1">
+            <h3 className="font-semibold">The Barber Shop</h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              123 Main Street, City, Country
+            </p>
+          </div>
+        </div>
       </div>
-    </footer>
+    </section>
   );
 };
 
