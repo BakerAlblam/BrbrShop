@@ -8,8 +8,7 @@ import Contact from '@/components/Contact';
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen  pb-4 px-6 gap-2">
-      <Nav />
+    <div className="flex flex-col min-h-screen  py-8 px-6 gap-2">
       <section className="w-full">
         <img
           alt="Hero"
