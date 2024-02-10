@@ -12,7 +12,7 @@ const Visit = () => {
           </p>
         </div>
         <div className="grid items-center gap-4">
-          <div className="aspect-map rounded-xl overflow-hidden bg-gray-200 dark:bg-gray-800">
+          <div className="aspect-map rounded-xl overflow-hidden ">
             <img
               alt="Map"
               className="object-cover object-center"
