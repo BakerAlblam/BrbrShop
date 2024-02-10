@@ -8,17 +8,16 @@ import Contact from '@/components/Contact';
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen sm:p-8 pb-4 px-3 gap-2">
+    <div className="flex flex-col min-h-screen  pb-4 px-6 gap-2">
       <Nav />
       <section className="w-full">
         <img
           alt="Hero"
-          className="aspect-[3.4] w-full object-cover object-center rounded-sm"
-          height="900"
+          className="w-full h-72 object-cover rounded-md shadow-lg"
           src="https://as1.ftcdn.net/v2/jpg/02/05/49/82/1000_F_205498258_AfQmtyR5kO5llwKd6fWRRxcc4xRUbQcb.jpg"
-          width="1440"
         />
       </section>
+
       <BarberShopExperiance />
       <RelaxingServices />
       <section className="w-full py-12 lg:py-16 overflow-hidden">
