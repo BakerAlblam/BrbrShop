@@ -21,7 +21,7 @@ type Data = {
 
 export default async function Page() {
   await connectToDB();
-  const res = await Book.find().sort({ time: -1 });
+  const res = await Book.find().sort({ createdAt: -1 });
   const data = res;
 
   return (
@@ -29,14 +29,14 @@ export default async function Page() {
       <Table>
         <TableHeader>
           <TableRow>
-            <TableHead className="w-[200px]">Name</TableHead>
+            <TableHead className="w-[250px]">Name</TableHead>
             <TableHead>Email</TableHead>
             <TableHead>Phone</TableHead>
             <TableHead className="text-right">Date</TableHead>
             <TableHead className="text-right">Created At</TableHead>
           </TableRow>
         </TableHeader>
-        <TableBody className="">
+        <TableBody>
           {data.map((invoice: Data) => (
             <TableRow key={invoice._id}>
               <TableCell className="font-medium flex flex-col overflow-hidden">

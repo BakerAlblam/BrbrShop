@@ -83,7 +83,7 @@ const Book = () => {
         <Button
           type="submit"
           size="lg"
-          className="mt-2"
+          className="mt-2 w-full"
         >
           Book Appointment
         </Button>

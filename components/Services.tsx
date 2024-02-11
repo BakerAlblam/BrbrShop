@@ -10,7 +10,7 @@ const Services = () => {
         grooming. Here are some of the services we provide:
       </p>
       <ul className="ml-2 grid gap-2 list-disc text-gray-500 md:grid-cols-2 md:text-base lg:text-base/relaxed dark:text-gray-400">
-        <li>Haircut</li>
+        <li>Haircut - 180kr</li>
         <li>Beard Trim</li>
         <li>Hot Towel Shave</li>
         <li>Moustache Trim</li>
