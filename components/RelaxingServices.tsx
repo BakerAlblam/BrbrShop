@@ -16,7 +16,7 @@ const RelaxingServices = () => {
             <h2 className="text-3xl font-bold">
               Relaxing and Inviting Atmosphere
             </h2>
-            <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
               Step into our shop and experience the welcoming ambiance. We
               believe that a visit to the barber should be more than just a
               haircut – it should be an enjoyable and relaxing experience. Our

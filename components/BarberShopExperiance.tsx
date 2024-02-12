@@ -9,7 +9,7 @@ const BarberShopExperiance = () => {
             <h1 className="text-4xl font-bold tracking-tighter sm:text-6xl">
               The Barber Shop
             </h1>
-            <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="max-w-[900px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
               Welcome to our modern and stylish barber shop. Our experienced
               barbers are here to provide you with the perfect haircut, beard
               trim, or hot towel shave.
@@ -23,7 +23,7 @@ const BarberShopExperiance = () => {
             <h2 className="text-3xl font-bold">
               Your Destination for Grooming
             </h2>
-            <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
               Our shop offers a blend of traditional barbering with modern
               styling. We pay attention to the details, ensuring that every
               customer leaves our shop looking and feeling their best.
@@ -33,7 +33,7 @@ const BarberShopExperiance = () => {
             <h2 className="text-3xl font-bold">
               Experienced and Friendly Barbers
             </h2>
-            <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
               Our team of barbers is skilled, professional, and dedicated to
               providing the highest quality service. Whether you want a classic
               haircut or a modern style, our barbers will ensure that you get
