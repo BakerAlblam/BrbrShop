@@ -65,7 +65,6 @@ export default async function Socials() {
             <p>E-mail: example@example.com</p>
             <p>Some Street 123, 45678 Stockholm</p>
           </div>
-          <div className="flex space-x-4"></div>
         </div>
       </div>
     </div>

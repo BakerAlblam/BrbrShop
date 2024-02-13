@@ -61,12 +61,12 @@ export default function IndexImgs() {
       <div className="text-center py-10 mx-2">
         <h1 className="text-3xl font-bold">RABYS BARBERSHOP</h1>
         <p className="mt-6 text-md text-gray-400">
-          We're an appointment and walk-in barbershop located in the midst of
+          We are an appointment and walk-in barbershop located in the midst of
           Stockholm. Every client gets their allocated time for best service and
           exclusive treatment.
         </p>
         <p className="mt-4 text-md text-gray-400">
-          We're continually investing in ourselves through education and our
+          We are continually investing in ourselves through education and our
           tools to make sure constantly staying on the top of our game and
           giving the best to the industry.
         </p>
