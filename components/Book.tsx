@@ -28,7 +28,7 @@ const Book = () => {
       phone,
       time,
     });
-    toast('Booking made!', {});
+    toast('Booking made!');
   };
 
   return (

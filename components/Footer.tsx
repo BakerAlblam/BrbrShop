@@ -1,15 +1,14 @@
 import Link from 'next/link';
 import React from 'react';
-import { Badge } from './ui/badge';
-import { Mail, Phone } from 'lucide-react';
 
 const Footer = () => {
   return (
     <section className="w-full py-8 lg:py-12">
-      <h2 className="text-3xl font-bold relative mb-1">Opening Hours</h2>
+      <h2 className="text-3xl font-bold mb-2">Opening Hours</h2>
       <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
+        {/* Opening Hours on the left */}
         <div className="grid items-center gap-4">
-          <ul className="ml-2 gap-2 list-disc text-gray-400  md:text-base lg:text-base/relaxed ">
+          <ul className="gap-2 list-disc text-gray-400  md:text-base lg:text-base/relaxed ">
             <li>Monday - 10:00-19:00</li>
             <li>Tuesday - 10:00-19:00</li>
             <li>Wednesday - 10:00-19:00</li>
@@ -19,7 +18,8 @@ const Footer = () => {
             <li>Sunday - Closed</li>
           </ul>
         </div>
-        <div className="grid items-center gap-4">
+        {/* Image and Content on the right */}
+        <div className="grid gap-4">
           <div className="aspect-map rounded-xl overflow-hidden">
             <img
               alt="Map"
