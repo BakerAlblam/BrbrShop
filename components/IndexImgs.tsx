@@ -5,13 +5,13 @@ import Link from 'next/link';
 export default function IndexImgs() {
   const images = [
     {
-      src: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/ff/61/25/getlstd-property-photo.jpg?w=1200&h=-1&s=1',
+      src: 'https://cdn.discordapp.com/attachments/336485290669768704/1207032091661967421/Snapchat-1611867692.jpg?ex=65de2b3c&is=65cbb63c&hm=ac6af1df5769c7327268dcf2f57265ce6464c41cacdbb172117cadee66291565&',
     },
     {
-      src: 'https://images.squarespace-cdn.com/content/v1/5fd787d32a8a4a2604b22b5d/a1a982a2-8886-4017-a735-3fde5aeab145/msbs-barbershop-perspective-22000.jpg',
+      src: 'https://cdn.discordapp.com/attachments/336485290669768704/1207032092060418198/Snapchat-1880471017.jpg?ex=65de2b3c&is=65cbb63c&hm=4b4d16f1f516a3943bd04c79e3be76889e99ac3a41ba3c5e18c9f306ba4d2265&',
     },
     {
-      src: 'https://scaled-images.timma.fi/timma/image/upload/w_1080,c_limit,q_auto/v1572356461/c/sthlm-barber-shop-be6a4000-fa51-11e9-a0b4-97328b9f18aa.jpg',
+      src: 'https://media.discordapp.net/attachments/336485290669768704/1207032092534247474/Snapchat-1445552303.jpg?ex=65de2b3c&is=65cbb63c&hm=a6c319a9dffd69628647cc7654905d921600f1c9f74368e9bedd7f76ef17b66d&=&format=webp&width=548&height=731',
     },
     {
       src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmltgUC3yaMEFudSttjfzl0inj1im4tA7BuEySJZ7RYGwIR8spnixVTrrpgSgh9zKtToU&usqp=CAU',
