@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 export default async function Socials() {
   return (
     <div className="bg-black">

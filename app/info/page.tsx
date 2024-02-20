@@ -1,8 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 import { JSX, SVGProps } from 'react';
 
 export default function Page() {
   return (
-    <div className="bg-black text-white h-screen items-center">
+    <div className="bg-slate-950 text-white h-screen items-center">
       <div className="max-w-7xl mx-auto  px-4 sm:px-6 lg:px-8">
         <br />
         <br />

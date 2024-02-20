@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { JSX, SVGProps } from 'react';
 import { Carousel, CarouselContent, CarouselItem } from './ui/carousel';
 import Link from 'next/link';
@@ -25,39 +26,7 @@ export default function IndexImgs() {
   ];
 
   return (
-    <div className="bg-slate-900 text-white">
-      <br />
-      <div className="flex items-center justify-center text-center">
-        <img
-          src="https://flowbite.com/docs/images/logo.svg"
-          className="h-8 mr-2"
-          alt="Flowbite Logo"
-        />
-        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-          RABYS BARBERSHOP
-        </span>
-      </div>
-
-      <nav className="flex justify-center space-x-24 py-5">
-        <Link
-          className="block text-xl font-bold hover:text-gray-300"
-          href="/"
-        >
-          HOME
-        </Link>
-        <Link
-          className="block text-xl font-bold hover:text-gray-300"
-          href="#"
-        >
-          BOOKING
-        </Link>
-        <Link
-          className="block text-xl font-bold hover:text-gray-300"
-          href="/info"
-        >
-          INFO
-        </Link>
-      </nav>
+    <div className="bg-slate-950 text-white">
       <div className="text-center py-10 mx-2">
         <h1 className="text-3xl font-bold">RABYS BARBERSHOP</h1>
         <p className="mt-6 text-md text-gray-400">
@@ -151,7 +120,7 @@ export default function IndexImgs() {
           className="w-full"
         >
           <CarouselContent>
-            {images?.map((m: any) => (
+            {images?.map((m: any, index) => (
               <CarouselItem
                 key={m?.index}
                 className="sm:basis-1/2 md:basis-1/2 lg:basis-1/3 xl:basis-1/3 2xl:basis-1/5 basis-1/1"
@@ -162,6 +131,7 @@ export default function IndexImgs() {
                   height={400}
                   src={`${m.src}`}
                   width={400}
+                  key={m?.index}
                 />
               </CarouselItem>
             ))}
