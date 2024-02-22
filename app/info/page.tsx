@@ -3,11 +3,11 @@ import { JSX, SVGProps } from 'react';
 
 export default function Page() {
   return (
-    <div className="bg-slate-950 text-white h-screen items-center">
+    <div className="bg-white text-black h-screen items-center">
       <div className="max-w-7xl mx-auto  px-4 sm:px-6 lg:px-8">
         <br />
         <br />
-        <h1 className="text-3xl font-bold text-center">RABYS BARBERSHOP</h1>
+        <h1 className="text-3xl font-bold text-center">FadeByBiggie</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-8">
           <div className="md:col-span-2">
             <img
@@ -22,7 +22,7 @@ export default function Page() {
               width="600"
             />
           </div>
-          <div className="border-4 border-slate-500 rounded-md">
+          <div className="rounded-md">
             <h2 className="text-xl font-semibold mb-4 ml-2">Opening Hours</h2>
             <ul className="space-y-1 ml-2">
               <li>Monday - 10:00-19:00</li>
@@ -42,10 +42,6 @@ export default function Page() {
               <p>Telefonnummer: +46 10-456 78 89</p>
               <p>E-mail: example@example.com</p>
               <p>Some Street 123, 45678 Stockholm</p>
-            </div>
-            <div className="flex space-x-4">
-              <FacebookIcon className="text-blue-600 h-6 w-6" />
-              <TwitterIcon className="text-blue-400 h-6 w-6" />
             </div>
           </div>
         </div>

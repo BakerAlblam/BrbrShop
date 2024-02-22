@@ -3,7 +3,7 @@ import { JSX, SVGProps } from 'react';
 import { Carousel, CarouselContent, CarouselItem } from './ui/carousel';
 import Link from 'next/link';
 
-export default function IndexImgs() {
+export default async function IndexImgs() {
   const images = [
     {
       src: 'https://cdn.discordapp.com/attachments/336485290669768704/1207032091661967421/Snapchat-1611867692.jpg?ex=65de2b3c&is=65cbb63c&hm=ac6af1df5769c7327268dcf2f57265ce6464c41cacdbb172117cadee66291565&',
@@ -14,98 +14,87 @@ export default function IndexImgs() {
     {
       src: 'https://media.discordapp.net/attachments/336485290669768704/1207032092534247474/Snapchat-1445552303.jpg?ex=65de2b3c&is=65cbb63c&hm=a6c319a9dffd69628647cc7654905d921600f1c9f74368e9bedd7f76ef17b66d&=&format=webp&width=548&height=731',
     },
-    {
-      src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmltgUC3yaMEFudSttjfzl0inj1im4tA7BuEySJZ7RYGwIR8spnixVTrrpgSgh9zKtToU&usqp=CAU',
-    },
-    {
-      src: 'https://as2.ftcdn.net/v2/jpg/04/08/29/53/1000_F_408295383_RmfdT9eIulBQPXf21f1skfYwL9kabkwt.jpg',
-    },
-    {
-      src: 'https://m.timecenter.se/img/upload/25952_place_22479_1000_7f3eceda66aabe22edcc253df81086d6.jpg',
-    },
   ];
 
   return (
-    <div className="bg-slate-950 text-white">
+    <div className="bg-white text-black">
       <div className="text-center py-10 mx-2">
-        <h1 className="text-3xl font-bold">RABYS BARBERSHOP</h1>
-        <p className="mt-6 text-md text-gray-400">
+        <h1 className="text-3xl font-bold">FadeByBiggie</h1>
+        <p className="mt-4 text-md text-gray-600">
           We are an appointment and walk-in barbershop located in the midst of
           Stockholm. Every client gets their allocated time for best service and
           exclusive treatment.
         </p>
-        <p className="mt-4 text-md text-gray-400">
+        <p className="mt-2 text-md text-gray-600">
           We are continually investing in ourselves through education and our
           tools to make sure constantly staying on the top of our game and
           giving the best to the industry.
         </p>
       </div>
       <hr className="border-gray-500" />
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 p-10">
-        <div className="space-y-4">
-          <img
-            alt="Barbershop Interior"
-            className="w-full h-auto"
-            height="300"
-            src="https://media.gettyimages.com/id/1322405644/vector/barbershop-retro-poster-barber-shop-beard-shaving.jpg?b=1&s=1024x1024&w=gi&k=20&c=hzcJV5AbMpZvgExUQpxoYyv087pS16Y38Odu459qZAY="
-            style={{
-              aspectRatio: '400/300',
-              objectFit: 'cover',
-            }}
-            width="400"
-          />
-          <div className="flex justify-between items-center">
-            <a
-              className="text-lg hover:text-gray-300"
-              href="#"
+      <div className=" text-black">
+        <br />
+
+        <h1 className="text-3xl font-bold text-center mb-6">Services</h1>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 p-6 text-black mb-3">
+          <div className="flex flex-col items-center space-y-4 rounded-full overflow-hidden">
+            <Link
+              href="https://www.instagram.com/fadebybiggie/"
+              target="blank"
             >
-              See More
-            </a>
-            <ChevronRightIcon className="w-5 h-5" />
+              <img
+                alt="Instagram Logo"
+                className="w-40 h-40"
+                height="300"
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                style={{
+                  objectFit: 'cover',
+                  background: 'transparent',
+                  borderRadius: '100%',
+                }}
+                width="400"
+              />
+            </Link>
           </div>
-        </div>
-        <div className="space-y-4">
-          <img
-            alt="Barbershop Entrance"
-            className="w-full h-auto"
-            height="300"
-            src="https://scaled-images.timma.fi/timma/image/upload/w_1080,c_limit,q_auto/v1586442445/c/sankt-eriks-barbershop-3b0bc600-7a6e-11ea-a6cd-61edda6c1b9b.jpg"
-            style={{
-              aspectRatio: '400/300',
-              objectFit: 'cover',
-            }}
-            width="400"
-          />
-          <div className="flex justify-between items-center">
-            <a
-              className="text-lg hover:text-gray-300"
-              href="#"
+          <div className="flex flex-col items-center space-y-4 rounded-full overflow-hidden">
+            <Link
+              href="https://www.instagram.com/fadebybiggie/"
+              target="blank"
             >
-              See More
-            </a>
-            <ChevronRightIcon className="w-5 h-5" />
+              <img
+                alt="Instagram Logo"
+                className="w-40 h-40"
+                height="300"
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                style={{
+                  objectFit: 'cover',
+                  background: 'transparent',
+                  borderRadius: '100%',
+                }}
+                width="400"
+              />
+            </Link>
           </div>
-        </div>
-        <div className="space-y-4">
-          <img
-            alt="Barbershop Chairs"
-            className="w-full h-auto"
-            height="300"
-            src="https://www.georgesklipp.se/wp-content/uploads/2017/11/slide4_opt.jpg"
-            style={{
-              aspectRatio: '400/300',
-              objectFit: 'cover',
-            }}
-            width="400"
-          />
-          <div className="flex justify-between items-center">
-            <a
-              className="text-lg hover:text-gray-300"
-              href="#"
+
+          <div className="flex flex-col items-center space-y-4 rounded-full overflow-hidden">
+            <Link
+              href="https://www.tiktok.com/@fadebybiggie"
+              target="blank"
             >
-              See More
-            </a>
-            <ChevronRightIcon className="w-5 h-5" />
+              <img
+                alt="Instagram Logo"
+                className="w-40 h-40"
+                height="300"
+                src="https://www.freepnglogos.com/uploads/tik-tok-logo-png/tik-tok-tiktok-logo-app-trend-1.png"
+                style={{
+                  objectFit: 'cover',
+                  background: 'transparent',
+                  borderRadius: '100%',
+                }}
+                width="400"
+              />
+            </Link>
           </div>
         </div>
       </div>
