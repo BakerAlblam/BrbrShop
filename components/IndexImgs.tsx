@@ -131,7 +131,7 @@ export default async function IndexImgs() {
               >
                 <img
                   alt={m.src}
-                  className="object-cover w-full h-72 md:l-72 lg:h-80 1xl:h-72 2xl:h-96 rounded-md"
+                  className="object-cover w-screen h-72 md:l-72 lg:h-80 1xl:h-72 2xl:h-96 rounded-md"
                   height={400}
                   src={`${m.src}`}
                   width={400}
