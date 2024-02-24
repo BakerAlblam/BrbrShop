@@ -38,8 +38,8 @@ export default function Page() {
             <div className="mb-4 md:mb-0">
               <h2 className="text-xl font-semibold">Contact</h2>
               <p>Telefonnummer: +46 73-227 49 32</p>
-              <p>E-mail: example@example.com</p>
-              <p>Some Street 123, 45678 Stockholm</p>
+              <p>E-mail: Fadebybiggie@hotmail.com</p>
+              <p>Wargentinsgatan 37, 112 26 Stockholm</p>
             </div>
           </div>
         </div>
