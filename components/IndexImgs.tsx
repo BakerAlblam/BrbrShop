@@ -56,15 +56,15 @@ export default async function IndexImgs() {
 
       <h1 className="text-3xl font-bold text-center mb-6">Services</h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-3 p-6 text-black mb-3 ">
-        <div className="flex flex-col items-center space-y-4 overflow-hidden">
+      <div className="grid grid-cols-1 sm:grid-cols-3 p-6 text-black mb-3">
+        <div className="flex flex-col items-center space-y-3 overflow-hidden mb-3">
           <p className=" text-xl font-bold">Beard</p>
           <p className="text-center text-sm font-normal">
             Precious and symmetry to get the maximum masculine appearance
           </p>
           <img
             alt="Instagram Logo"
-            className="w-40 h-40"
+            className="w-52 h-52"
             height="300"
             src="https://cdn.discordapp.com/attachments/336485290669768704/1211022454038994964/Snapchat-1236408388.jpg?ex=65ecaf8c&is=65da3a8c&hm=fa451262239deb9f995555700cc053f75e7d13443c9d64a4588c7adeff293067&"
             style={{
@@ -75,7 +75,7 @@ export default async function IndexImgs() {
             width="400"
           />
         </div>
-        <div className="flex flex-col items-center space-y-4  overflow-hidden">
+        <div className="flex flex-col items-center space-y-3 overflow-hidden">
           <p className=" text-xl font-bold">Classic cut</p>
           <p className="text-center text-sm font-normal">
             Skilled hands with understanding of shapes and technique sculpts a
@@ -83,26 +83,24 @@ export default async function IndexImgs() {
           </p>
           <img
             alt="Instagram Logo"
-            className="w-40 h-40"
-            height="300"
+            className="w-52 h-52"
             src="https://cdn.discordapp.com/attachments/336485290669768704/1211019402749673552/Snapchat-1302855312.jpg?ex=65ecacb5&is=65da37b5&hm=d6ce201e3209797db1e21e49849317f73a6ece05de451713c54323f6ec481b07&"
             style={{
               objectFit: 'cover',
               background: 'transparent',
               borderRadius: '100%',
             }}
-            width="400"
           />
         </div>
 
-        <div className="flex flex-col items-center space-y-4  overflow-hidden">
+        <div className="flex flex-col items-center space-y-3 overflow-hidden mb-3">
           <p className=" text-xl font-bold">Skin fade</p>
           <p className="text-center text-sm font-normal">
             No need for explanation check the gallery
           </p>
           <img
             alt="Instagram Logo"
-            className="w-40 h-40"
+            className="w-52 h-52"
             height="300"
             src="https://media.discordapp.net/attachments/336485290669768704/1207032092534247474/Snapchat-1445552303.jpg?ex=65de2b3c&is=65cbb63c&hm=a6c319a9dffd69628647cc7654905d921600f1c9f74368e9bedd7f76ef17b66d&=&format=webp&width=548&height=731"
             style={{

@@ -7,19 +7,17 @@ export default function Page() {
       <div className="max-w-7xl mx-auto  px-4 sm:px-6 lg:px-8">
         <br />
         <br />
-        <h1 className="text-3xl font-bold text-center">FadeByBiggie</h1>
+        <h1 className="text-3xl font-bold text-center">BIGGIES</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-8">
           <div className="md:col-span-2">
             <img
               alt="Map"
-              className="w-full h-auto rounded-lg shadow-md"
-              height="400"
-              src="https://media.gettyimages.com/id/1322405644/vector/barbershop-retro-poster-barber-shop-beard-shaving.jpg?b=1&s=1024x1024&w=gi&k=20&c=hzcJV5AbMpZvgExUQpxoYyv087pS16Y38Odu459qZAY="
+              className="w-full h-full rounded-lg shadow-md"
+              src="https://cdn.discordapp.com/attachments/336485290669768704/1210991017520529520/Snapchat-1539447698.jpg?ex=65ec9245&is=65da1d45&hm=3980584aa1b8ad1eef7a1243976741367e637fb04f2269b58752a8c10c67bbd9&"
               style={{
-                aspectRatio: '600/400',
+                aspectRatio: '600/500',
                 objectFit: 'cover',
               }}
-              width="600"
             />
           </div>
           <div className="rounded-md">
