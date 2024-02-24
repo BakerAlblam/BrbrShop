@@ -42,18 +42,16 @@ export default async function IndexImgs() {
   ];
 
   return (
-    <div className="bg-white text-black">
+    <div className="bg-zinc-900 text-white">
       <div className="text-center py-10 mx-2">
         <h1 className="text-3xl font-bold">BIGGIES</h1>
-        <p className="mt-4 text-md text-gray-600">
-          We are an appointment and walk-in barbershop located in the midst of
-          Stockholm. Every client gets their allocated time for best service and
-          exclusive treatment.
+        <p className="mt-4 text-md ">
+          A hair cut is like a suit it&apos;s best when it&apos;s tailored for
+          you.
         </p>
-        <p className="mt-2 text-md text-gray-600">
-          We are continually investing in ourselves through education and our
-          tools to make sure constantly staying on the top of our game and
-          giving the best to the industry.
+        <p className="mt-2 text-md ">
+          Get a haircut that is tailored just for your face shape and head form,
+          executed by flawless technique and maximum efficiency
         </p>
       </div>
       <hr className="border-gray-500" />
@@ -62,7 +60,7 @@ export default async function IndexImgs() {
 
       <h1 className="text-3xl font-bold text-center mb-6">Services</h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-3 p-6 text-black mb-3">
+      <div className="grid grid-cols-1 sm:grid-cols-3 p-6  mb-3">
         <div className="flex flex-col items-center space-y-3 overflow-hidden mb-3">
           <p className=" text-xl font-bold">Beard</p>
           <p className="text-center text-sm font-normal">
