@@ -22,19 +22,19 @@ export default function RootLayout({
       <body className={inter.className}>
         <nav className="flex justify-center space-x-24 py-5">
           <Link
-            className="block text-xl font-bold hover:text-gray-600"
+            className="block text-xl font-bold  hover:text-cyan-400"
             href="/"
           >
             HOME
           </Link>
           <Link
-            className="block text-xl font-bold hover:text-gray-600"
+            className="block text-xl font-bold hover:text-cyan-400"
             href="#"
           >
             BOOKING
           </Link>
           <Link
-            className="block text-xl font-bold hover:text-gray-600"
+            className="block text-xl font-bold hover:text-cyan-400"
             href="/info"
           >
             INFO

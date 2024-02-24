@@ -11,7 +11,7 @@ export default async function Socials() {
       <p className="text-xl text-center">
         Visit our social media to learn more{' '}
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 p-6 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 p-6">
         <div className="flex flex-col items-center space-y-4 rounded-full overflow-hidden">
           <p className="text-lg ">Instagram</p>
           <Link
