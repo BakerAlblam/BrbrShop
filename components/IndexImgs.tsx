@@ -1,6 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import { JSX, SVGProps } from 'react';
-import { Carousel, CarouselContent, CarouselItem } from './ui/carousel';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from './ui/carousel';
 import Link from 'next/link';
 
 export default async function IndexImgs() {
@@ -116,7 +122,7 @@ export default async function IndexImgs() {
       {/* */}
       <hr className="border-gray-500 mb-6 mt-10" />
       <h1 className="text-3xl font-bold text-center mb-6">Gallery</h1>
-      <div className="mx-6">
+      <div className="mx-12">
         <Carousel
           opts={{
             align: 'start',
@@ -140,6 +146,8 @@ export default async function IndexImgs() {
               </CarouselItem>
             ))}
           </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
         </Carousel>
         <br />
         <br />
