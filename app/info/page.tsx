@@ -37,7 +37,7 @@ export default function Page() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
               <h2 className="text-xl font-semibold">Contact</h2>
-              <p>Telefonnummer: +46 10-456 78 89</p>
+              <p>Telefonnummer: +46 73-227 49 32</p>
               <p>E-mail: example@example.com</p>
               <p>Some Street 123, 45678 Stockholm</p>
             </div>
