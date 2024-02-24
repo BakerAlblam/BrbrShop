@@ -3,7 +3,7 @@ import { JSX, SVGProps } from 'react';
 
 export default function Page() {
   return (
-    <div className="bg-white text-black h-screen items-center">
+    <div className="bg-zinc-900 text-white h-screen items-center">
       <div className="max-w-7xl mx-auto  px-4 sm:px-6 lg:px-8">
         <br />
         <br />
