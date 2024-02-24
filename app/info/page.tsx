@@ -28,7 +28,7 @@ export default function Page() {
               <li>Wednesday - 10:00-19:00</li>
               <li>Thursday - 10:00-19:00</li>
               <li>Friday - 10:00-19:00</li>
-              <li>Saturday - 10:00-17:00</li>
+              <li>Saturday - 10:00-19:00</li>
               <li>Sunday - Closed</li>
             </ul>
           </div>
