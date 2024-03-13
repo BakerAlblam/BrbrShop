@@ -106,7 +106,7 @@ export default async function IndexImgs() {
             alt="Instagram Logo"
             className="w-52 h-52"
             height="300"
-            src="https://media.discordapp.net/attachments/336485290669768704/1207032092534247474/Snapchat-1445552303.jpg?ex=65de2b3c&is=65cbb63c&hm=a6c319a9dffd69628647cc7654905d921600f1c9f74368e9bedd7f76ef17b66d&=&format=webp&width=548&height=731"
+            src="/assets/Snapchat-1445552303.jpg"
             style={{
               objectFit: 'cover',
               background: 'transparent',
