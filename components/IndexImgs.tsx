@@ -12,32 +12,32 @@ import Link from 'next/link';
 export default async function IndexImgs() {
   const images = [
     {
-      src: 'https://cdn.discordapp.com/attachments/336485290669768704/1207032091661967421/Snapchat-1611867692.jpg?ex=65de2b3c&is=65cbb63c&hm=ac6af1df5769c7327268dcf2f57265ce6464c41cacdbb172117cadee66291565&',
+      src: '/assets/Snapchat-897049588.jpg',
     },
     {
-      src: 'https://cdn.discordapp.com/attachments/336485290669768704/1207032092060418198/Snapchat-1880471017.jpg?ex=65de2b3c&is=65cbb63c&hm=4b4d16f1f516a3943bd04c79e3be76889e99ac3a41ba3c5e18c9f306ba4d2265&',
+      src: '/assets/Snapchat-938434518.jpg',
     },
 
     {
-      src: 'https://media.discordapp.net/attachments/336485290669768704/1210991017919250502/Snapchat-631626502.jpg?ex=65ec9245&is=65da1d45&hm=119dc2c3849d329172a1475b05b8a9b66aca0424406e6b92b5c33d1246e67255&=&format=webp&width=1195&height=796',
+      src: '/assets/Snapchat-1652457907.jpg',
     },
     {
-      src: 'https://cdn.discordapp.com/attachments/336485290669768704/1210991017520529520/Snapchat-1539447698.jpg?ex=65ec9245&is=65da1d45&hm=3980584aa1b8ad1eef7a1243976741367e637fb04f2269b58752a8c10c67bbd9&',
+      src: '/assets/Snapchat-1539447698.jpg',
     },
     {
-      src: 'https://cdn.discordapp.com/attachments/336485290669768704/1210991017197834380/Snapchat-1378973570.jpg?ex=65ec9245&is=65da1d45&hm=883ba7de145f38a3ed486af616d8cc9e7ea7127b1cbb7c0db344b331bda8c418&',
+      src: '/assets/Snapchat-1378973570.jpg',
     },
     {
-      src: 'https://cdn.discordapp.com/attachments/336485290669768704/1211019459217723442/Snapchat-1746672802.jpg?ex=65ecacc2&is=65da37c2&hm=ed1bed43d3bdf24c77130ab74e7fe1750373a46a9dea6e249e9cb060c6289890&',
+      src: '/assets/Snapchat-1746672802.jpg',
     },
     {
-      src: 'https://cdn.discordapp.com/attachments/336485290669768704/1211022452478578688/Snapchat-1015155767.jpg?ex=65ecaf8c&is=65da3a8c&hm=f3567921632eb5f1fd65ad99b8f9a31e314e65e2d828b4a966788f1bc1166d8f&',
+      src: '/assets/Snapchat-1962561883.jpg',
     },
     {
-      src: 'https://cdn.discordapp.com/attachments/336485290669768704/1211022451920867348/Snapchat-1962561883.jpg?ex=65ecaf8c&is=65da3a8c&hm=9fd94dc4b717408b0b8f3295e68f00d77cc39096979ae1672bcc887edf4ebc5b&',
+      src: '/assets/Snapchat-1015155767.jpg',
     },
     {
-      src: 'https://cdn.discordapp.com/attachments/336485290669768704/1211022453673959546/Snapchat-677566729.jpg?ex=65ecaf8c&is=65da3a8c&hm=387a15e3d234b02b4b548330635cc093afeb0b14f18db366a46f175e0ef758f4&',
+      src: '/assets/Snapchat-677566729.jpg',
     },
   ];
 
