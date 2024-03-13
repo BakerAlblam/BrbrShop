@@ -13,7 +13,7 @@ export default function Page() {
             <img
               alt="Map"
               className="w-full h-full rounded-lg shadow-md"
-              src="https://cdn.discordapp.com/attachments/336485290669768704/1210991017520529520/Snapchat-1539447698.jpg?ex=65ec9245&is=65da1d45&hm=3980584aa1b8ad1eef7a1243976741367e637fb04f2269b58752a8c10c67bbd9&"
+              src="/assets/Snapchat-1539447698.jpg"
               style={{
                 aspectRatio: '600/500',
                 objectFit: 'cover',
