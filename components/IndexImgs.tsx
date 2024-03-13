@@ -70,7 +70,7 @@ export default async function IndexImgs() {
             alt="Instagram Logo"
             className="w-52 h-52"
             height="300"
-            src="https://cdn.discordapp.com/attachments/336485290669768704/1211022454038994964/Snapchat-1236408388.jpg?ex=65ecaf8c&is=65da3a8c&hm=fa451262239deb9f995555700cc053f75e7d13443c9d64a4588c7adeff293067&"
+            src="/assets/Snapchat-1236408388.jpg"
             style={{
               objectFit: 'cover',
               background: 'transparent',
@@ -88,7 +88,7 @@ export default async function IndexImgs() {
           <img
             alt="Instagram Logo"
             className="w-52 h-52"
-            src="https://cdn.discordapp.com/attachments/336485290669768704/1211019402749673552/Snapchat-1302855312.jpg?ex=65ecacb5&is=65da37b5&hm=d6ce201e3209797db1e21e49849317f73a6ece05de451713c54323f6ec481b07&"
+            src="/assets/Snapchat-1175998084.jpg"
             style={{
               objectFit: 'cover',
               background: 'transparent',
