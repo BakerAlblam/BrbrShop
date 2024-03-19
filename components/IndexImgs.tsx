@@ -64,7 +64,8 @@ export default async function IndexImgs() {
         <div className="flex flex-col items-center space-y-3 overflow-hidden mb-3">
           <p className=" text-xl font-bold">Beard</p>
           <p className="text-center text-sm font-normal">
-            Precious and symmetry to get the maximum masculine appearance
+            Precious and symmetry to get the maximum masculine appearance -
+            150kr
           </p>
           <img
             alt="Instagram Logo"
@@ -83,7 +84,7 @@ export default async function IndexImgs() {
           <p className=" text-xl font-bold">Classic cut</p>
           <p className="text-center text-sm font-normal">
             Skilled hands with understanding of shapes and technique sculpts a
-            classic haircut.
+            classic haircut - 300kr
           </p>
           <img
             alt="Instagram Logo"
@@ -100,7 +101,7 @@ export default async function IndexImgs() {
         <div className="flex flex-col items-center space-y-3 overflow-hidden mb-3">
           <p className=" text-xl font-bold">Skin fade</p>
           <p className="text-center text-sm font-normal">
-            No need for explanation check the gallery
+            No need for explanation check the gallery - 300kr
           </p>
           <img
             alt="Instagram Logo"
