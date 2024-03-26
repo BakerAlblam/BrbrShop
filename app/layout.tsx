@@ -12,6 +12,7 @@ import {
   DialogTrigger,
 } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -68,6 +69,7 @@ export default function RootLayout({
           </Link>
         </nav>
         {children}
+        <Analytics />
       </body>
     </html>
   );
